@@ -15,6 +15,10 @@
     --bluelogo: #0d2481;
     --yellowlogo: #ffd830;
     --browncolor: #61082b;
+    --blackfoot: #000000;
+}
+html {
+    scroll-behavior: smooths;
 }
 body {
     background-color: var(--lightcolor);
@@ -41,19 +45,40 @@ header{
     height: 80px;
     top: 0;
     z-index: 1000;
-
+    padding-left: 10px;
+    padding-right: 10px;
+   
 }
 .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.ul-left {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.ul-left li {
+    display: inline-block;
+    padding: 30px;
+}
+.ul-right {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.ul-right li {
+    display: inline-block;
+    padding: 30px;
+}
+
 main {
     padding-top: 80px;
 }
 footer{
-    background-color: var();
-
+    background-color: var(--blackfoot);
+    color: var(--lightcolor);
 }
 .nav-ul {
    display: flex;
