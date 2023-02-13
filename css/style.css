@@ -10,6 +10,7 @@
     --lightgrey: #F5F5F5;
     --greenlogo: #A2D39B;
     --lightbluelogo: #0093ce;
+    --bluelight: #b4D0E7;
     --redlogo: #ff1c1c;
     --cherrylogo: #d5001f;
     --bluelogo: #0d2481;
@@ -49,8 +50,13 @@ header{
     padding-right: 10px;
    
 }
+.btn-1 {
+    background-color: var(--bg-btn);
+    padding:  3px 8px;
+}
+
 .color-blue {
-    background-color: var(--lightbluelogo);
+    background-color: var(--bluelight);
 }
 .nav-header {
     display: flex;
@@ -62,6 +68,10 @@ header{
     display: flex;
     align-items: center;
 }
+.ul-left a {
+    color: var(--blackfoot);
+    text-decoration: none;
+}
 .ul-left li {
     display: inline-block;
     padding: 30px;
@@ -71,13 +81,29 @@ header{
     align-items: center;
     display: flex;
 }
+.ul-right a {
+    color: var(--blackfoot);
+    text-decoration: none;
+}
 .ul-right li {
     display: inline-block;
     padding: 30px;
 }
+.text_1 {
+    
+}
+ .img img {
+    width: 100%; 
+    
+    
+}
+
 
 main {
     padding-top: 80px;
+}
+h1 {
+    font-size: 8vh;
 }
 footer{
     background-color: var(--blackfoot);
