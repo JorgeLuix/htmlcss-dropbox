@@ -48,6 +48,7 @@ header{
     z-index: 1000;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: var(--lightcolor);
    
 }
 .btn-1 {
@@ -112,9 +113,7 @@ header{
     color: var(--lightcolor);
     padding: 10px 10px;
 }
-.img {
-    
-}
+
  .img img {
    width: 100%;
    
@@ -125,10 +124,35 @@ main {
     padding-top: 80px;
 }
 h1 {
-    font-size: 8vh;
+    font-size: 7vh;
+    font-weight: 900;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+h2 {
+    font-size: 2.5rem;
+}
+.display-flex {
+    display: flex;
+}
+
+.partner {
+    padding-right: 30px;
+}
+.partner__2 {
+   padding-top: 3rem;
+   padding: 10px 20px;
+}
+.partner img {
+    width: 100%;
+}
+.partner__2 a{
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+
 footer{
     background-color: var(--blackfoot);
     color: var(--lightcolor);
