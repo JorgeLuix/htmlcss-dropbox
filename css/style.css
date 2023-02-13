@@ -54,6 +54,12 @@ header{
     background-color: var(--bg-btn);
     padding:  3px 8px;
 }
+.fa-solid, .fa-arrow-down{
+    
+    font-size: 3rem;
+    text-decoration: none;
+    color: #000000;
+}
 
 .color-blue {
     background-color: var(--bluelight);
@@ -74,7 +80,7 @@ header{
 }
 .ul-left li {
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
 }
 .ul-right {
     justify-content: flex-end;
@@ -87,15 +93,31 @@ header{
 }
 .ul-right li {
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
+}
+.box {
+    display: flex;
+}
+.text a ,p {
+    padding: 10px 10px;
 }
 .text_1 {
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+.btn-2{
+    text-decoration: none;
+    background-color: var(--bg-btn);
+    color: var(--lightcolor);
+    padding: 10px 10px;
+}
+.img {
     
 }
  .img img {
-    width: 100%; 
-    
-    
+   width: 100%;
+   
 }
 
 
@@ -104,6 +126,8 @@ main {
 }
 h1 {
     font-size: 8vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 footer{
     background-color: var(--blackfoot);
