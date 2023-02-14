@@ -151,6 +151,9 @@ h2 {
     padding: 20px;
      
 }
+.m-bot {
+    margin-bottom: 50px;
+}
 .img_100 {
     width: 100%;
 }
@@ -203,6 +206,17 @@ h2 {
 .partner__2 h2 {
     margin-top: 30px;
     
+}
+#chevron{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.box_domande_bord {
+    border-top: 1px solid grey;
+    border-bottom:1px solid grey ;
+}
+.domanda_1 {
+    padding: 20px 0;
 }
 .titolo_prova h2{
     font-size: 30px;
