@@ -166,11 +166,20 @@ h2 {
 .display-flex {
     display: flex;
 }
+.flex-colum{
+    flex-direction: column;
+}
 .flex-wrap {
-    flex-flow: row nowrap;
+    flex-wrap: wrap;
+}
+.flex-row{
+    flex-direction: row;
 }
 .align-center {
     align-items: center;
+}
+.justify-cnt {
+    justify-content: center;
 }
 .justify-content {
     justify-content: space-between;
@@ -200,12 +209,36 @@ h2 {
     padding: 10px 10px;
     border: 1px solid black;
 }
-#prova {
+.loghi .logo_1{
+    width: 50%;
+    height: 50%;
+}
+
+.cliente .loghi {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
     
 }
+.aranc {
+    background-color: var(--cherrylogo);
+}
+.bluee {
+    background-color: var(--lightbluelogo);
+}
+.style {
+    background-color: var(--greenlogo);
+    border: 15px solid rgb(222, 247, 222);
+  
+}
+.brownn {
+    background-color: var(--browncolor);
+}
 .partner__2 h2 {
-    margin-top: 30px;
-    
+    margin-top: 30px;   
+}
+.centrale {
+    overflow: auto;
+    padding: 40px;
 }
 #chevron{
     font-size: 20px;
@@ -214,6 +247,12 @@ h2 {
 .box_domande_bord {
     border-top: 1px solid grey;
     border-bottom:1px solid grey ;
+}
+.design {
+    line-height: 0.1;  
+}
+.thomsen {
+    padding-top: 4rem;
 }
 .domanda_1 {
     padding: 20px 0;
