@@ -146,6 +146,49 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+/*sezione business*/
+.cont-bus {
+    width: calc(100% / 3);
+}
+.three-contain{
+    border: 1px solid var(--lightgrey);
+    width: 30%;
+}
+.padding2{
+    padding: 15px;
+}
+.bloc_1 h3{
+   padding-bottom: 15px;
+}
+.bloc_1, .bloc_2,
+.bloc_3, .bloc_4 {
+    padding: 40px 0;
+}
+.bloc_3 p {
+    padding-top: 40px;
+}
+.font-icon i {
+    font-size: 20px;
+    padding: 10px 0;
+}
+.font-icon li {
+    
+}
+.font-check i{
+    font-size: 20px;
+    color: var(--bg-btn);
+    padding: 10px 0;
+    padding-left: 10px;
+}
+.icon i {
+    font-size: 20px;
+}
+.icon{
+    padding: 15px 0;
+    border-bottom: 1px solid var(--lightgrey);
+}
+
+/* fine sezione business*/
 .box_card_1 img{
     position: relative;
     
@@ -213,12 +256,12 @@ h2 {
     padding: 10px 10px;
     border: 1px solid black;
 }
-.loghi .logo_1{
+.cliente .logo_1{
     width: 50%;
     height: 50%;
 }
 
-.cliente .loghi {
+.box-logo .loghi {
     width: calc(100% / 3);
     height: calc(100vw / 3);
     
