@@ -134,7 +134,11 @@ h1 {
     padding-bottom: 3rem;
 }
 h2 {
+    font-size: 2rem;
+}
+.tit-cli {
    
+   padding-bottom: 2.5rem;
 }
 .row {
     display: flex;
@@ -240,6 +244,10 @@ h2 {
     overflow: auto;
     padding: 40px;
 }
+.scopri {
+    color: var(--bg-btn);
+    
+}
 #chevron{
     font-size: 20px;
     padding-right: 20px;
@@ -283,7 +291,37 @@ footer{
 }
 .nav-ul {
    display: flex;
-   justify-content: space-around;
+   padding: 4rem 0;
+   
+}
+.nav-ul ul{
+    padding-left: 2rem;
+}
+.foot-ul a {
+    color: var(--lightcolor);
+    text-decoration: none;
+}
+.line {
+    border-bottom: 1px solid white;
+}
+.foot-ul a:hover {
+    text-decoration: underline;
+}
+.lingua a{
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+}
+.arro {
+    color: var(--lightcolor);
+    font-size: 15px;
+}
+.foot-ul li {
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+#li {
+    font-size: 25px;
 }
 .margin-bottom {
     margin-bottom: 100px;
