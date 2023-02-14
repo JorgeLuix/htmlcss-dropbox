@@ -113,10 +113,15 @@ header{
     color: var(--lightcolor);
     padding: 10px 10px;
 }
-
- .img img {
+.img-jum {
+   position: relative;
+   margin-bottom: -80px;
+   
+}
+ .img-jum img {
    width: 100%;
    
+
 }
 
 
@@ -132,8 +137,30 @@ h1 {
 h2 {
    
 }
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.box_card_1 img{
+    position: relative;
+    
+}
+.cards {
+    width: calc(100% / 3);
+    
+      
+}
+
+.margin-cards {
+    margin: 10px;
+}
 .display-flex {
     display: flex;
+}
+.flex-wrap {
+    flex-flow: row nowrap;
 }
 .align-center {
     align-items: center;
