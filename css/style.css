@@ -320,29 +320,50 @@ h2 {
 .aranc {
     background-color: var(--redlogo);
 }
+.aranc:hover {
+    box-shadow: inset 0 0 15px 15px rgb(216, 123, 89);
+}
 .bluee {
     background-color: var(--lightbluelogo);
 }
+.bluee:hover {
+    box-shadow: inset 0 0 15px 15px rgb(137, 137, 225);
+}
 .style {
-    background-color: var(--greenlogo);
-    border: 15px solid rgb(222, 247, 222);
-  
+    background-color: var(--greenlogo); 
+}
+.style:hover {
+    box-shadow: inset 0 0 15px 15px rgb(222, 247, 222);
 }
 .brownn {
     background-color: var(--browncolor);
 }
+.brownn:hover {
+    box-shadow: inset 0px 0px 15px 15px brown;
+}
 .world {
-   
     background-color: var(--cherrylogo);
+}
+.world:hover {
+    box-shadow: inset 0px 0px 15px 15px rgb(240, 138, 138);
 }
 .lonely{
     background-color: var(--bluelogo);
 }
+.lonely:hover {
+    box-shadow: inset 0 0 15px 15px blue;
+}
 .heart {
     background-color: var(--lightbluelogo);
 }
+.heart:hover {
+    box-shadow: inset 0 0 15px 15px rgb(150, 150, 242);
+}
 .clear {
     background-color: var(--yellowlogo);
+}
+.clear:hover {
+    box-shadow: inset 0 0 15px 15px rgb(243, 243, 152);
 }
 .partner__2 h2 {
     margin-top: 30px;   
