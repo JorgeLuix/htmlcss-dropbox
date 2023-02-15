@@ -166,13 +166,17 @@ h2 {
 }
 .bloc_3 p {
     padding-top: 40px;
+   
+}
+.bloc_3 {
+    
 }
 .font-icon i {
     font-size: 20px;
     padding: 10px 0;
 }
 .font-icon li {
-    
+   
 }
 .font-check i{
     font-size: 20px;
@@ -260,6 +264,10 @@ h2 {
     width: 50%;
     height: 50%;
 }
+.logo_1 img {
+    width: 50%;
+    
+}
 
 .box-logo .loghi {
     width: calc(100% / 3);
@@ -267,7 +275,7 @@ h2 {
     
 }
 .aranc {
-    background-color: var(--cherrylogo);
+    background-color: var(--redlogo);
 }
 .bluee {
     background-color: var(--lightbluelogo);
@@ -279,6 +287,19 @@ h2 {
 }
 .brownn {
     background-color: var(--browncolor);
+}
+.world {
+   
+    background-color: var(--cherrylogo);
+}
+.lonely{
+    background-color: var(--bluelogo);
+}
+.heart {
+    background-color: var(--lightbluelogo);
+}
+.clear {
+    background-color: var(--yellowlogo);
 }
 .partner__2 h2 {
     margin-top: 30px;   
