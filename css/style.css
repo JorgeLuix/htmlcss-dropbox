@@ -60,6 +60,7 @@ header{
     font-size: 3rem;
     text-decoration: none;
     color: #000000;
+    padding-left: 30px;
 }
 
 .color-blue {
@@ -69,6 +70,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.text_1 a:hover {
+    text-decoration: underline;
+    box-shadow:0px 0px 1px 1px #0061FF;    
+}
+#arr:hover {
+    text-decoration: none;
+    box-shadow: none;
 }
 .ul-left {
     justify-content: flex-start;
@@ -83,10 +93,16 @@ header{
     display: inline-block;
     padding: 20px;
 }
+.ul-left li:hover{
+    text-decoration: underline;
+}
 .ul-right {
     justify-content: flex-end;
     align-items: center;
     display: flex;
+}
+.ul-right li:hover {
+    text-decoration: underline;
 }
 .ul-right a {
     color: var(--blackfoot);
@@ -100,13 +116,13 @@ header{
     display: flex;
 }
 .text a ,p {
-    padding: 10px 10px;
+    padding: 25px 25px;
 }
 .text_1 {
     font-size: 20px;
-    line-height: 1.5;
-    
+    line-height: 1.5;  
 }
+
 .btn-2{
     text-decoration: none;
     background-color: var(--bg-btn);
@@ -114,12 +130,12 @@ header{
     padding: 10px 10px;
 }
 .img-jum {
-   position: relative;
+   
    margin-bottom: -80px;
    
 }
  .img-jum img {
-   width: 100%;
+   width: 150%;
    
 }
 
@@ -166,7 +182,11 @@ h2 {
    padding: 10px;
 }
 .div-1 {
-    padding: 20px;
+    padding: 30px;
+}
+.dvi-1 p{
+    padding-left: 0;
+    font-weight: 600;
 }
 .sol{
     text-align: left;
@@ -200,8 +220,27 @@ h2 {
     padding: 40px 0;
 }
 .bloc_3 p {
-    padding-top: 40px;
-   
+    padding-top: 40px;  
+}
+.bloc_3 a:hover {
+    color: rgb(106, 106, 246);
+}
+.blocco {
+    width: 250px;
+    height: 45px;
+    background-color: var(--bg-btn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.blocco a{
+    color: white;
+    text-decoration: none;
+}
+.blocco:hover {
+    box-shadow: 0 0 1px 1px blue;
+    text-decoration: underline;
 }
 #punti {
     font-weight: 700;
@@ -217,6 +256,9 @@ h2 {
 }
 .font-icon i {
     font-size: 20px;
+    
+}
+.font-icon i, li{
     padding: 10px 0;
 }
 .font-check li{
