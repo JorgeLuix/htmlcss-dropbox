@@ -168,20 +168,28 @@ h2 {
     padding-top: 40px;
    
 }
+#punti {
+    font-weight: 700;
+}
 .bloc_3 {
-    
+    text-align: center;
+}
+.but{
+    background-color: var(--bg-btn);
+    padding: 10px;
+    color: var(--lightcolor);
+    text-decoration: none;
 }
 .font-icon i {
     font-size: 20px;
     padding: 10px 0;
 }
-.font-icon li {
-   
+.font-check li{
+   padding-top:15px;
 }
 .font-check i{
     font-size: 20px;
     color: var(--bg-btn);
-    padding: 10px 0;
     padding-left: 10px;
 }
 .icon i {
