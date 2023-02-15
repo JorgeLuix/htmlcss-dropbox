@@ -148,10 +148,22 @@ h2 {
 }
 /*sezione business*/
 .cont-bus {
-    width: calc(100% / 3);
+    width: (calc(100% / 3) - 20px);
 }
 .enterprise {
     padding-top: 25px;
+}
+.comand-contro {
+    display: flex;
+    padding: 3rem 0;
+}
+.controli {
+    padding: 20px;
+}
+.controli input {
+   width: 20px;
+   height: 20px;
+   padding: 10px;
 }
 .div-1 {
     padding: 20px;
