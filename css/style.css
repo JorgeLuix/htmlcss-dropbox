@@ -150,9 +150,32 @@ h2 {
 .cont-bus {
     width: calc(100% / 3);
 }
+.enterprise {
+    padding-top: 25px;
+}
+.div-1 {
+    padding: 20px;
+}
+.sol{
+    text-align: left;
+    padding-top: 40px;
+}
+
 .three-contain{
     border: 1px solid var(--lightgrey);
     width: 30%;
+}
+.idem i{
+    font-size: 15px;
+    padding-right: 5px
+}
+.idem {
+    border-bottom: 1px solid  var(--lightgrey);
+    padding: 8px;
+}
+
+.bordo {
+    border: 1px solid  var(--lightgrey);
 }
 .padding2{
     padding: 15px;
