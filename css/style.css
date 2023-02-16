@@ -91,10 +91,10 @@ header{
 }
 .ul-left li {
     display: inline-block;
-    padding: 20px;
+    padding: 29px;
 }
 .ul-left li:hover{
-    text-decoration: underline;
+    box-shadow: 0 2px 0px 0 gray;
 }
 .ul-right {
     justify-content: flex-end;
@@ -102,7 +102,8 @@ header{
     display: flex;
 }
 .ul-right li:hover {
-    text-decoration: underline;
+    
+    box-shadow: 0 2px 0px 0 gray;
 }
 .ul-right a {
     color: var(--blackfoot);
@@ -110,7 +111,7 @@ header{
 }
 .ul-right li {
     display: inline-block;
-    padding: 20px;
+    padding: 29px;
 }
 .box {
     display: flex;
@@ -192,6 +193,11 @@ h2 {
     text-align: left;
     padding-top: 40px;
 }
+.contatta a:hover {
+    box-shadow: 0 0 1px 1px blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .three-contain{
     border: 1px solid var(--lightgrey);
@@ -222,9 +228,7 @@ h2 {
 .bloc_3 p {
     padding-top: 40px;  
 }
-.bloc_3 a:hover {
-    color: rgb(106, 106, 246);
-}
+
 .blocco {
     width: 250px;
     height: 45px;
@@ -232,6 +236,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+   
     
 }
 .blocco a{
@@ -240,6 +245,10 @@ h2 {
 }
 .blocco:hover {
     box-shadow: 0 0 1px 1px blue;
+    
+    cursor: pointer;
+}
+.blocco a:hover{
     text-decoration: underline;
 }
 #punti {
@@ -437,6 +446,11 @@ h2 {
 .domanda_1 {
     padding: 20px 0;
 }
+
+.box-back:hover{
+    background-color: rgb(228, 228, 237);
+    cursor: pointer;
+}
 .titolo_prova h2{
     font-size: 30px;
     color: var(--browncolor);
@@ -453,8 +467,11 @@ h2 {
     text-decoration: none;
     background-color: var(--lightcolor);
     color: var(--blackfoot);
-    padding: 8px 15px;
-    
+    padding: 8px 15px;   
+}
+.titolo_prova a:hover{
+    box-shadow: 0 0 1px 1px white;
+    text-decoration: underline;
 }
 
 footer{
