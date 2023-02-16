@@ -51,9 +51,14 @@ header{
     background-color: var(--lightcolor);
    
 }
-.btn-1 {
+#inizia {
     background-color: var(--bg-btn);
-    padding:  3px 8px;
+    padding:  5px 10px;
+    color: #fff;   
+}
+#inizia:hover {
+    box-shadow: 0 0 2px 0 blue;
+    
 }
 .fa-solid, .fa-arrow-down{
     
@@ -432,13 +437,21 @@ h2 {
     font-size: 20px;
     padding-right: 20px;
 }
+#chevron:active{
+    transform: rotate(180deg);
+    transition: .2 ease;
+}
+.domanda_1 p{
+    padding-left: 0;
+}
+
 .box_domande_bord {
     border-top: 1px solid grey;
     border-bottom:1px solid grey ;
 }
 .design img{
     width: 55%; 
-    fill: #000000;
+    
   }   
 .thomsen {
     padding-top: 4rem;
