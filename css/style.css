@@ -19,7 +19,7 @@
     --blackfoot: #000000;
 }
 html {
-    scroll-behavior: smooths;
+    scroll-behavior: smooth;
 }
 body {
     background-color: var(--lightcolor);
