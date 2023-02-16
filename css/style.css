@@ -354,6 +354,7 @@ h2 {
     
 }
 
+
 .box-logo .loghi {
     width: calc(100% / 3);
     height: calc(100vw / 3);
@@ -426,9 +427,10 @@ h2 {
     border-top: 1px solid grey;
     border-bottom:1px solid grey ;
 }
-.design {
-    line-height: 0.1;  
-}
+.design img{
+    width: 55%; 
+    fill: #000000;
+  }   
 .thomsen {
     padding-top: 4rem;
 }
